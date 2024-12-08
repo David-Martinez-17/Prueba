@@ -1,0 +1,104 @@
+.hamburger-menu {
+  position: fixed;
+  top: 20px;
+  left: 20px;
+  z-index: 2;
+}
+
+.burger-icon {
+  font-size: 30px;
+  cursor: pointer;
+  padding: 10px;
+  background: transparent;
+  color: white;
+  border-radius: 5px;
+  transition: background 0.3s;
+}
+
+.burger-icon:hover {
+  background: transparent;
+  transition: transform .15s ease, opacity .15s ease;
+}
+
+.menu {
+  display: flex;
+  flex-direction: column;
+  position: fixed;
+  top: 0;
+  left: -250px; 
+  background: rgba(0, 0, 0, 0.9);
+  width: 250px;
+  height: 100%;
+  transition: all 0.3s ease;
+  z-index: 1;
+}
+
+.menu.open {
+  left: 0; 
+}
+
+.menu-header {
+  display: flex;
+  justify-content: flex-end;
+  padding: 10px;
+}
+
+.close-icon {
+  font-size: 24px;
+  cursor: pointer;
+  color: white;
+}
+
+.logo-container {
+  display: flex;
+  justify-content: center;
+  padding: 10px;
+}
+
+.menu-logo {
+  width: 50px; 
+  height: auto;
+  top:0;
+  
+}
+
+.horizontal-menu {
+  display: flex;
+  justify-content: space-between;
+  padding: 10px 0;
+  border-top: 1px solid #444;
+  border-bottom: 1px solid #444;
+}
+
+.horizontal-menu a {
+  color: white;
+  text-decoration: none;
+  padding: 10px;
+  transition: background 0.3s;
+}
+
+.horizontal-menu a:hover {
+  background: #444;
+}
+
+.vertical-menu {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+  margin-top: 20px; 
+}
+
+.vertical-menu li {
+  padding: 15px;
+  border-bottom: 1px solid #444;
+}
+
+.vertical-menu li a {
+  color: white;
+  text-decoration: none;
+  transition: background 0.3s;
+}
+
+.vertical-menu li a:hover {
+  background: #444;
+}

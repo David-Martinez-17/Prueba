@@ -1,0 +1,87 @@
+.footer {
+  background-color: #222;
+  padding: 20px;
+  color: #fff;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  gap: 20px;
+}
+
+.left-section {
+  display: flex;
+  align-items: center;
+  gap: 40px;
+}
+
+.social-icons {
+  display: flex;
+  gap: 10px;
+}
+
+.icon-box {
+  width: 40px;
+  height: 40px;
+  background-color: #fff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 5px;
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+.icon-box:hover {
+  transform: scale(1.1);
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
+}
+
+.icon {
+  font-size: 20px;
+  color: #000;
+}
+
+.dropdowns {
+  display: flex;
+  gap: 20px;
+}
+
+.dropdown {
+  position: relative;
+}
+
+.dropdown-btn {
+  background-color: transparent;
+  border: none;
+  color: #fff;
+  font-size: 16px;
+  cursor: pointer;
+  text-align: left;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  top: 100%;
+  left: 0;
+  background-color: #333;
+  border-radius: 5px;
+  padding: 10px 0;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
+  z-index: 1000;
+}
+
+.dropdown-content a {
+  display: block;
+  padding: 8px 20px;
+  color: #fff;
+  text-decoration: none;
+  transition: background-color 0.2s ease;
+}
+
+.dropdown-content a:hover {
+  background-color: #444;
+}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+}
