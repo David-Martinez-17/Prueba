@@ -25,7 +25,7 @@ const Footer = () => {
         </div>
         <div className="dropdowns">
           <div className="dropdown">
-            <button className="dropdown-btn">Servicio al Cliente</button>
+            <button className="dropdown-btn">Servicio al Cliente<span>▼</span></button>
             <div className="dropdown-content">
               <a href="#Contactanos">Contáctanos/PQR</a>
               <a href="#Recoge">Recoge en la tienda</a>
@@ -33,7 +33,7 @@ const Footer = () => {
             </div>
           </div>
           <div className="dropdown">
-            <button className="dropdown-btn">Quiénes Somos</button>
+            <button className="dropdown-btn">Quiénes Somos<span>▼</span></button>
             <div className="dropdown-content">
               <a href="#Nosotros">Nuestro equipo</a>
             </div>
