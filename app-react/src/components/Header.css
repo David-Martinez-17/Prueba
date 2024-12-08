@@ -1,8 +1,9 @@
+/* src/components/Header.css */
 .header {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding: 0px;
+  padding: 5px;
   height: auto;
   background-color: #282c34;
   color: white;
@@ -10,14 +11,21 @@
 }
 
 .background-image {
+  display: flex;
+  justify-content: center;
+  align-items: center;
   width: 100px;
   height: 100px;
-  background-image: url('../components/img/Malva_logo.png');
   background-size: contain;
   background-repeat: no-repeat;
   background-position: center;
   padding-left: 120px; 
-  margin: auto; 
+  margin: auto;
+}
+
+.logo {
+  width: 100px;
+  height: auto;
 }
 
 .header-options {
