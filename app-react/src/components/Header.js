@@ -11,7 +11,7 @@ const Header = () => {
       <div className="background-image">
         <Link to="/">
           <div className="logo-container">
-            <img src="/img/Malva_logo.png" alt="Logo" className="logo" />
+            <img src="/components/img/Malva_logo.png" alt="Logo" className="logo" />
           </div>
         </Link>
       </div>

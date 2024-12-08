@@ -78,7 +78,6 @@
   transition: background 0.3s;
 }
 
-
 .vertical-menu {
   list-style-type: none;
   padding: 0;
@@ -95,6 +94,29 @@
   color: black;
   text-decoration: none;
   transition: background 0.3s;
+}
+
+@media (max-width: 1024px) {
+  .menu {
+    width: 80%; 
+  }
+  
+  .logo-container {
+    padding: 5px;
+  }
+
+  .vertical-menu li {
+    padding: 10px;
+    border-bottom: 1px solid #ddd;
+  }
+
+  .burger-icon {
+    font-size: 25px;
+  }
+
+  .close-icon {
+    font-size: 20px;
+  }
 }
 
 @media (max-width: 768px) {

@@ -1,6 +1,6 @@
 .footer {
   width: 100%;
-  padding: 120px;
+  padding: 60px 20px; 
   background-color: #282c34;
   color: white;
   text-align: center;
@@ -10,12 +10,15 @@
 .left-section {
   display: flex;
   align-items: center;
-  gap: 40px;
+  gap: 20px;
+  flex-wrap: wrap;
+  justify-content: center;
 }
 
 .social-icons {
   display: flex;
   gap: 10px;
+  justify-content: center;
 }
 
 .icon-box {
@@ -41,11 +44,15 @@
 
 .dropdowns {
   display: flex;
-  gap: 20px;
+  flex-wrap: wrap; 
+  gap: 10px;
+  justify-content: center;
+  margin-top: 20px; 
 }
 
 .dropdown {
   position: relative;
+  margin: 10px;
 }
 
 .dropdown-btn {
@@ -86,4 +93,37 @@
 
 .dropdown:hover .dropdown-content {
   display: block;
+}
+
+@media (max-width: 768px) {
+  .footer {
+    padding: 40px 10px;
+  }
+
+  .left-section {
+    flex-direction: column; 
+    gap: 15px;
+  }
+
+  .dropdowns {
+    gap: 10px;
+    justify-content: center;
+  }
+
+  .dropdown {
+    margin: 5px 0;
+  }
+
+  .dropdown-btn {
+    font-size: 14px;
+  }
+
+  .icon-box {
+    width: 35px;
+    height: 35px;
+  }
+
+  .icon {
+    font-size: 18px;
+  }
 }
