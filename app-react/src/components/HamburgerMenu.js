@@ -22,10 +22,10 @@ const HamburgerMenu = () => {
           <img src={logo} alt="Logo" className="menu-logo" />
         </div>
         <div className="horizontal-menu">
-          <a href="#link1">Mujeres</a>
-          <a href="#link2">Hombres </a>
-          <a href="#link3">Global Brands</a>
-          <a href="#link4">Local Brands</a> 
+          <a href="/hombres">Hombres</a>
+          <a href="/Link2">Mujeres</a>
+          <a href="/Link3">Global Brands</a>
+          <a href="/Link4">Local Brands</a> 
         </div>
         <ul className="vertical-menu">
           <li><a href="#home">Ir a inicio</a></li>

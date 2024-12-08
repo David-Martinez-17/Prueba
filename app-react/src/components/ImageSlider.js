@@ -1,4 +1,3 @@
-// src/components/ImageSlider.js
 import React from 'react';
 import Slider from 'react-slick';
 import 'slick-carousel/slick/slick.css';
@@ -31,12 +30,13 @@ const ImageSlider = () => {
   };
 
   const images = [
-    { src: '/assest/img/slider_img1', alt: 'Imagen 1' },
-    { src: '/images/image2.jpg', alt: 'Imagen 2' },
-    { src: '/images/image3.jpg', alt: 'Imagen 3' },
-    { src: '/images/image4.jpg', alt: 'Imagen 4' },
-    { src: '/images/image5.jpg', alt: 'Imagen 5' },
-    { src: '/images/image6.jpg', alt: 'Imagen 6' },
+    { src: '../assest/img/slider_img1.png', alt: 'Imagen 1' },
+    { src: '../assest/img/slider_img2.png', alt: 'Imagen 2' },
+    { src: '../assest/img/slider_img3.png', alt: 'Imagen 3' },
+    { src: '../assest/img/slider_img4.png', alt: 'Imagen 4' },
+    { src: '../assest/img/slider_img5.png', alt: 'Imagen 5' },
+    { src: '../assest/img/slider_img6.png', alt: 'Imagen 6' },
+   
   ];
 
   return (
