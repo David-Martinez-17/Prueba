@@ -1,10 +1,11 @@
 import React from 'react';
+import ImageSlider from './ImageSlider';
+
 
 const Hombres = () => {
   return (
     <div>
-      <h1>Bienvenido a la Página de Hombres</h1>
-      <p>Aquí encontrarás contenido específico para hombres.</p>
+      <ImageSlider />
     </div>
   );
 };
