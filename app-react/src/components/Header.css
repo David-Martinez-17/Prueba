@@ -2,10 +2,11 @@
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding: 10px;
-  height: 30px;
+  padding: 0px;
+  height: auto;
   background-color: #282c34;
   color: white;
+  flex-wrap: wrap;
 }
 
 .background-image {
@@ -15,7 +16,8 @@
   background-size: contain;
   background-repeat: no-repeat;
   background-position: center;
-  padding-left: 120;
+  padding-left: 120px; 
+  margin: auto; 
 }
 
 .header-options {
@@ -33,4 +35,25 @@
   font-size: 24px;
   cursor: pointer;
   color: white;
+}
+
+@media (max-width: 768px) {
+  .header {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .header-options {
+    justify-content: center;
+    width: 100%;
+  }
+
+  .background-image {
+    width: 80px;
+    height: 80px;
+  }
+
+  .icon {
+    font-size: 20px;
+  }
 }

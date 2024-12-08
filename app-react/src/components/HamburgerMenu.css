@@ -16,7 +16,7 @@
 }
 
 .burger-icon:hover {
-  background: transparent;
+  background: rgba(0, 0, 0, 0.1);
   transition: transform .15s ease, opacity .15s ease;
 }
 
@@ -26,11 +26,13 @@
   position: fixed;
   top: 0;
   left: -250px; 
-  background: rgba(0, 0, 0, 0.9);
-  width: 250px;
+  background: white;
+  width: 350px;
   height: 100%;
   transition: all 0.3s ease;
   z-index: 1;
+  color: black;
+  overflow-y: auto; 
 }
 
 .menu.open {
@@ -46,7 +48,7 @@
 .close-icon {
   font-size: 24px;
   cursor: pointer;
-  color: white;
+  color: black;
 }
 
 .logo-container {
@@ -56,10 +58,9 @@
 }
 
 .menu-logo {
-  width: 50px; 
-  height: auto;
-  top:0;
-  
+  width: 100px; 
+  height: 50px;
+  background: black;
 }
 
 .horizontal-menu {
@@ -71,15 +72,12 @@
 }
 
 .horizontal-menu a {
-  color: white;
+  color: black;
   text-decoration: none;
   padding: 10px;
   transition: background 0.3s;
 }
 
-.horizontal-menu a:hover {
-  background: #444;
-}
 
 .vertical-menu {
   list-style-type: none;
@@ -94,11 +92,18 @@
 }
 
 .vertical-menu li a {
-  color: white;
+  color: black;
   text-decoration: none;
   transition: background 0.3s;
 }
 
-.vertical-menu li a:hover {
-  background: #444;
+@media (max-width: 768px) {
+  .menu {
+    width: 100%; 
+  }
+
+  .vertical-menu li {
+    padding: 10px;
+    border-bottom: 1px solid #ddd;
+  }
 }

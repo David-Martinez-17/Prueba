@@ -1,11 +1,16 @@
 .App {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh; /* Asegura que la App ocupe toda la altura de la ventana */
   text-align: center;
   font-family: Arial, sans-serif;
 }
 
 main {
+  flex-grow: 1; /* Permite que el main crezca y ocupe el espacio disponible */
   padding: 20px;
 }
+
 
 .App-logo {
   height: 40vmin;
