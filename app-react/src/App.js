@@ -4,10 +4,11 @@ import Header from './components/Header';
 import HamburgerMenu from './components/HamburgerMenu';
 import Body from './components/Body';
 import Footer from './components/Footer';
-import Hombres from './Hombres';
-import Cart from './Cart';
-import { CartProvider } from './CartContext';
+import Hombres from'./components/Hombres';
+import Cart from './components/Cart';
+import { CartProvider } from './components/CartContext';
 import './App.css';
+
 
 function App() {
   return (
