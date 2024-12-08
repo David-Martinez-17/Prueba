@@ -4,7 +4,6 @@ import Header from './components/Header';
 import HamburgerMenu from './components/HamburgerMenu';
 import Body from './components/Body';
 import Footer from './components/Footer';
-import App2 from './App2';
 import './App.css';
 
 function App() {
@@ -14,7 +13,7 @@ function App() {
         <HamburgerMenu />
         <Body />
         <Footer />
-        <App2 />
+      
       </div>
   );
 }
